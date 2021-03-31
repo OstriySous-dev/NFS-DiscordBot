@@ -1,3 +1,9 @@
+<p>
+    <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
+    <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+    <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
+    <img alt="deno" src="https://img.shields.io/badge/-Deno-000000?style=flat-square&logo=deno&logoColor=white" />
+</p>
 # NFS DiscordBot
 Первый опенсоурс дискорд бот, разрабатывающийся для проекта GTA 5. 
 ## Статус разработки
