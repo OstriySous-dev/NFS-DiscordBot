@@ -1,10 +1,10 @@
-<p>
+<center><p>
     <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" />
     <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
     <img alt="Docker" src="https://img.shields.io/badge/-Docker-46a2f1?style=flat-square&logo=docker&logoColor=white" />
     <img alt="deno" src="https://img.shields.io/badge/-Deno-000000?style=flat-square&logo=deno&logoColor=white" />
-</p>
-# <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> NFS DiscordBot
+</p></center>
+<h1> <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> NFS DiscordBot </h1>
 <p> Первый опенсоурс дискорд бот, разрабатывающийся для проекта GTA 5. </p>
 <h2> Статус разработки </h2>
 <p> На данный момент, готовность бота находится на очень, очень ранней стадии. Он не готов к использованию. Я рекомендую использовать его в качестве справки, чтобы увидеть, как можно реализовать некоторые вещи. </p>
