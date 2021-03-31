@@ -1,0 +1,39 @@
+---
+version: "3.7"
+
+services:
+  pg:
+    image: postgres:13.2
+    restart: unless-stopped # restart the db on failure
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      PGDATA: "/data/postgres"
+    volumes:
+      - ./postgres:/data/postgres
+    ports:
+    - "5432:5432"
+    expose:
+    - "5432"
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    depends_on:
+      - pg
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "pg@pg.pg"
+      PGADMIN_DEFAULT_PASSWORD: "pg@pg.pg"
+    ports:
+      - "120:80"
+    volumes:
+      - ./pgadmin:/var/lib/pgadmin/storage
+      # file perms fix
+      # docker exec -it -u root abf75edac9dd  sh
+      # chown -R 5050:5050 /var/lib/pgadmin/storage
+  bot:
+    build: ./boilerplate
+    restart: unless-stopped
+    depends_on:
+      - pg
+    volumes:
+      - ./botconfig.ts:/bot/configs.ts
