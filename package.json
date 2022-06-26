@@ -1,23 +1,5 @@
 {
-  "name": "Aurorium",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">NFS-DiscordBot</h1>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OstriySous/Aurorium.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OstriySous/Aurorium/issues"
-  },
-  "homepage": "https://github.com/OstriySous/Aurorium#readme",
   "dependencies": {
-    "discordeno": "^13.0.0-rc45"
+    "deno": "^0.1.1"
   }
 }
